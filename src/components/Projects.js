@@ -1,7 +1,8 @@
 import React from 'react';
 import './Projects.css'; 
-import { FaHtml5, FaCss3, FaJsSquare,FaBootstrap,FaDatabase,FaPhp, FaJava, FaGithub  } from 'react-icons/fa'; // Import Icons
-
+import { FaHtml5, FaCss3, FaJsSquare,FaBootstrap,FaDatabase,FaPhp, FaJava, FaGithub, FaPython  } from 'react-icons/fa'; 
+import { SiOpencv, SiTensorflow, SiPytorch, SiJavascript } from 'react-icons/si'; 
+import { FaReact } from 'react-icons/fa6';
 const Projects = () => {
   return (
     <section id="projects" className="projects">
@@ -26,6 +27,7 @@ vices.
             <FaPhp className="project-icon" />
             <FaGithub className='project-icon'/>
           </div>
+          
         </div>
         {/* Project 2 */}
         <div className="project-card">
@@ -42,6 +44,39 @@ ing and reservations.
           </div>
         </div>
         
+      
+      <div className="project-card">
+          <h3 className="project-title">Emotion Based Music Recommendation System</h3>
+          <p className="project-description">
+          Uses a convolutional neural network (CNN) to classify facial expressions into emotions like happy, sad, angry, neutral, etc.
+<p>Based on the detected emotion, the system recommends a specific song tailored to the mood.</p>
+<p>Captures live images from a webcam for emotion analysis.</p>
+</p>
+<div className="project-icons">
+            <FaPython className="project-icon" />
+            <SiOpencv className="project-icon" />
+            <SiTensorflow className="project-icon" />
+            <SiPytorch className="project-icon" />
+            
+            <FaGithub className='project-icon'/>
+          </div>
+         
+        </div>
+
+        <div className="project-card">
+          <h3 className="project-title">Personal Portfolio Website</h3>
+          <p className="project-description">
+          A fully responsive and modern personal portfolio website built using React.
+<p>It showcases my projects, skills, and background in a clean and minimal design. </p>
+<p>The site is designed to be fast, accessible, and easy to navigate, featuring smooth scroll, icon-based tech stack displays, and reusable components.</p>
+</p>
+<div className="project-icons">
+            <FaReact className="project-icon" />
+            <SiJavascript className="project-icon" />
+            <FaGithub className='project-icon'/>
+          </div>
+         
+        </div>
       </div>
     </section>
   );

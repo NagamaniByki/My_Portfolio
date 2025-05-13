@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import './About.css';
-import aboutImage from '../assets/about-image.png'; // 👉 Your about photo
+import aboutImage from '../assets/about-image.png'; 
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -16,8 +16,8 @@ const About = () => {
         <div className="about-content" data-aos="fade-right">
           <h2>About Me</h2>
           <p>
-            I'm Byki Nagamani,<strong>a Full Stack MERN Developer</strong> with 
-            a passion for building scalable and interactive web applications using modern technologies like <strong>React</strong>, <strong>Node.js</strong>, <strong>MongoDB</strong>,<strong>Java</strong>,<strong>Javascript</strong> and more.
+            I'm Byki Nagamani,<strong>a Full Stack MERN , JAVA Developer</strong> with 
+            a passion for building scalable and interactive web applications using modern technologies like <strong>React</strong>, <strong>Node.js</strong>, <strong>MongoDB</strong>,<strong>Core Java</strong>,<strong>Spring Boot</strong>,<strong>Javascript</strong> and more.
             <br /><br />
              I am pursuing my B.Tech in Computer Science at RGUKT and enjoy research driven learning,problem-solving and software development.
              <br /><br />
