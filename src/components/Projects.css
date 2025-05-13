@@ -48,6 +48,7 @@
   display: flex;
   justify-content: center;
   gap: 20px;
+
 }
 
 .project-icon {
@@ -59,6 +60,26 @@
 .project-icon:hover {
   transform: scale(1.2);
 }
+.github-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+  font-size: 1rem;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.github-button:hover {
+  background-color: #00ffab; 
+}
+
+.github-button:active {
+  background-color: #00ffab ;
+}
+
 
   
   
